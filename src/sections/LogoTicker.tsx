@@ -1,3 +1,12 @@
 export const LogoTicker = () => {
-  return <section>LogoTicker</section>;
+  return (
+    <section>
+      <div className="container">
+        <div>
+          <h1>FrontEnd Magic Created With:</h1>
+          <div>{/* IMAGES GOES HERE */}</div>
+        </div>
+      </div>
+    </section>
+  );
 };
