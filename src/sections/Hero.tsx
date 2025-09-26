@@ -3,7 +3,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 
 export const Hero = () => {
   return (
-    <section className="h-[80vh] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+    <section className="h-[80vh] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_30%,black_90%,transparent)]">
       {/* Stars BackGround  */}
       <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center,rgb(140,69,255,.5)_15%,rgb(14,0,36,.5)_78%,transparent)]"></div>
       <div className="w-full absolute inset-0 h-screen">
